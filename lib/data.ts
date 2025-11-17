@@ -2,9 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import todolist from '@/public/todolist.jpg'
 
 export const links = [
   {
@@ -12,11 +10,11 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
+    name: "à propos",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Project",
     hash: "#projects",
   },
   {
@@ -35,73 +33,64 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Licence en Télécommunications",
+    location: "Université de Boumerdès",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Titulaire d’une licence en Télécommunications obtenue en 2023. J’ai développé des compétences solides dans les réseaux, les systèmes de communication et les technologies modernes.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020 - 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Stage Pratique – Centre de Transmission",
+    location: "Bordj El Kiffan, Algérie",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Stage pratique au centre de transmission de Bordj El Kiffan où j’ai renforcé mes compétences en réseaux, télécommunications et gestion des infrastructures techniques.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Chef de Projet – Forage Hydraulique",
+    location: "Algérie",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Deux ans d’expérience en tant que chef de projet dans une entreprise de forage hydraulique. Responsable de la coordination, du suivi des équipes et de la réalisation de projets techniques. Titulaire d’un certificat accrédité en forage.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2023",
+  },
+  {
+    title: "Master 2 Réseaux & Télécommunications",
+    location: "Université de Boumerdès",
+    description:
+      "Actuellement étudiant en Master 2 dans la spécialité Réseaux et Télécommunications. Je continue d’approfondir mes connaissances en systèmes avancés, administration réseau et technologies de communication.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - Présent",
   },
 ] as const;
 
+
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "To-Do List App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Une application simple et moderne permettant d’ajouter, supprimer et gérer des tâches. Ce projet m’a permis de pratiquer les bases du développement web, la gestion d’état et la création d’interfaces propres et réactives.",
+    tags: ["React", "JavaScript", "CSS"],
+    imageUrl: todolist,
   },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
+  "Networking",
+  "Linux",
+  "Cisco",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "SQL",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;

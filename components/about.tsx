@@ -17,32 +17,17 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Sur moi</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        Passionné par les{" "}
+        <span className="font-medium">technologies</span>, j’ai développé un fort intérêt pour la programmation, 
+        les systèmes réseaux et la construction d’applications modernes.{" "}
+        <span className="font-medium">J’aime particulièrement le côté résolution de problèmes, cette sensation d’avancer étape par étape jusqu’à 
+          trouver la solution la plus élégante.</span>.{" "}
+        <span >Mon domaine de prédilection touche au développement web,
+           aux réseaux et aux systèmes intelligents. Je suis constamment en train d’explorer de nouveaux outils,
+            d’expérimenter des technologies récentes et d'améliorer ma manière de créer des projets robustes, 
+            performants et modernes.</span>Quand je ne programme pas, j’aime jouer aux jeux vidéo, regarder des films et passer du temps avec mon chien. J’adore aussi apprendre à travers différents sujets. En ce moment, je m’intéresse beaucoup à l’histoire, à la philosophie, et j’apprends également à jouer du piano. 
       </p>
     </motion.section>
   );
